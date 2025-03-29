@@ -1,0 +1,21 @@
+configuration{
+    modi: "combi,run,window,ssh";
+    icon-theme: "Oranchelo";
+    show-icons: true;
+    terminal: "ghostty";
+    drun-display-format: "{icon} {name}";
+    location: 0;
+    disable-history: false;
+    hide-scrollbar: true;
+    display-combi: "All";
+    display-run: "Run";
+    display-window: "Window";
+    display-ssh: "ssh";
+    sidebar-mode: true;
+    border: false;
+}
+//@theme "~/.config/rofi/themes/neon_dark.rasi"
+//@theme "/usr/share/rofi/themes/Arc-Dark.rasi"
+
+
+@theme "/usr/share/rofi/themes/Arc-Dark.rasi"

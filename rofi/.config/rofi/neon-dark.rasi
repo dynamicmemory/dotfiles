@@ -1,0 +1,83 @@
+/* Rofi Neon Dark Theme */
+
+* {
+    background: #1f1f1f;          /* Dark background */
+    foreground: #d8d8d8;          /* Light text */
+    border: 2px solid;    /* Border color */
+    border-radius: 10px;          /* Rounded corners */
+    padding: 10px;
+}
+
+/* Window Settings */
+window {
+    background: #1f1f1f;          /* Dark background */
+    border: 2px solid;       /* Border color */
+    border-radius: 10px;          /* Rounded corners */
+    padding: 10px;
+}
+
+/* List View Settings */
+listview {
+    lines: 10;                    /* Number of visible lines */
+    fixed-height: true;           /* Fixed height for items */
+    background: #2e2e2e;          /* Darker background for the list */
+    border-radius: 5px;
+}
+
+/* Element (item) Settings */
+element {
+    background: transparent;     /* Transparent background for items */
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+/* Highlight for Selected Elements */
+element selected {
+    background: #00ff80;          /* Neon green on selected item */
+    color: #1f1f1f;               /* Dark text on selected item */
+}
+
+/* Normal Element (unselected) Text Color */
+element normal {
+    color: #d8d8d8;               /* Light gray text for normal items */
+}
+
+/* Scrollbar Settings */
+scrollbar {
+    width: 10px;
+    background: #3e3e3e;          /* Scrollbar background */
+    border-radius: 10px;
+}
+
+/* Scrollbar Slider Settings */
+scrollbar slider {
+    background: #00ff80;          /* Neon green slider */
+    border-radius: 5px;
+}
+
+/* Separator Settings */
+separator {
+    background: #3e3e3e;          /* Separator color */
+    height: 1px;
+}
+
+/* Highlight for Matching Text (Search) */
+match {
+    background: #ff00ff;          /* Neon pink for matching text */
+    color: #1f1f1f;
+}
+
+/* Inputbar Settings */
+inputbar {
+    background: #333333;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: #d8d8d8;
+}
+
+/* Focused Text for Input */
+inputbar focused {
+    color: #ff00ff;               /* Neon pink when focused */
+}
+

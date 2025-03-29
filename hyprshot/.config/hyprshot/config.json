@@ -1,0 +1,6 @@
+{
+    "save_path": "/home/lenny/screenshots/"
+    "save_filename_format": "screenshot-%d-%m-%Y_%H-%M.png"
+    "copy_to_clipboard": true
+    "notify": true 
+}
