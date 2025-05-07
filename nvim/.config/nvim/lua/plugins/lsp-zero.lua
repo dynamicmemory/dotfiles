@@ -37,17 +37,31 @@ return {
             }
         }
 
+        require("mason-lspconfig").setup {
+            ensure_installed = {
+                "pyright",        -- Python
+                "lua_ls",         -- Lua
+                "bashls",         -- Bash
+                "clangd",         -- C
+                "gopls",          -- Go
+                "clangd",         -- c++
+                "sqls",           -- sql
+                "jdtls",          -- yava
+            },
+        }
+
+        -- OLD WAY THAT IS BROKEN NOW 
         -- Ensure LSP servers are installed
-        lsp.ensure_installed({
-            "pyright",        -- Python
-            "lua_ls",         -- Lua
-            "bashls",         -- Bash
-            "clangd",         -- C
-            "gopls",          -- Go
-            "clangd",         -- c++
-            "sqls",           -- sql
-            "jdtls",          -- yava
-        })
+        -- lsp.ensure_installed({
+        --     "pyright",        -- Python
+        --     "lua_ls",         -- Lua
+        --     "bashls",         -- Bash
+        --     "clangd",         -- C
+        --     "gopls",          -- Go
+        --     "clangd",         -- c++
+        --     "sqls",           -- sql
+        --     "jdtls",          -- yava
+        -- })
 
 
         -- Metals Configuration for Scala

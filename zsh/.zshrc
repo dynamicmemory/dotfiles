@@ -52,3 +52,7 @@ eval "$(pyenv init -)"
 export PATH=/opt/scala3/bin:$PATH
 export PATH="$PATH:$HOME/.local/share/coursier/bin"
 export PATH="$HOME/.local/share/coursier/bin:$PATH" # or /home/lenny/.bashrc
+
+#THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
