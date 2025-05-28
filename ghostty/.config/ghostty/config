@@ -3,4 +3,7 @@ font-family-bold = auto
 font-family-italic = auto
 font-family-bold-italic = auto
 
+theme = tokyonight_night
 background-opacity = 0.95
+
+

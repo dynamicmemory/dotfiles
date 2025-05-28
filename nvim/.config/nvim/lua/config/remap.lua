@@ -12,5 +12,7 @@ vim.keymap.set("n", "<leader>y", "\"+y")
 vim.keymap.set("v", "<leader>y", "\"+y")
 vim.keymap.set("n", "<leader>Y", "\"+Y")
 
-
+vim.keymap.set("i", '<CapsLock>', '<Esc>', { noremap = true })
+vim.keymap.set("n", '<CapsLock>', '<Esc>', { noremap = true })
+vim.keymap.set("v", '<CapsLock>', '<Esc>', { noremap = true })
 
