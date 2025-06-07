@@ -5,7 +5,7 @@ return {
     config = function()
         -- Setup nvim-treesitter
         require("nvim-treesitter.configs").setup({
-            ensure_installed = { "c", "lua", "python", "markdown", "sql" }, -- Install all parsers (you can specify specific ones too, e.g. {"lua", "python"})
+            ensure_installed = { "c", "lua", "python", "markdown", "sql", "asm" }, -- Install all parsers (you can specify specific ones too, e.g. {"lua", "python"})
             sync_install = false,      -- Install parsers asynchronously
             highlight = {
                 enable = true,          -- Enable Treesitter syntax highlighting

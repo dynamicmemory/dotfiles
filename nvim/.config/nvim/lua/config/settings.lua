@@ -40,6 +40,7 @@ vim.o.ruler = true
 -- Auto Commands
 vim.cmd("autocmd FileType * setlocal formatoptions-=cro")  -- Avoid automatically adding comment characters
 
+
 -- -- Highlight TODO in comments using Vim syntax matching
 -- vim.api.nvim_set_hl(0, "Todo", { fg = "#FF6347", bg = "#2E3440", bold = true })  -- Custom highlight for TODO
 --
