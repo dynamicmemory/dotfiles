@@ -47,7 +47,9 @@ return {
                 "clangd",         -- c++
                 "sqls",           -- sql
                 "jdtls",          -- yava
-                "rust_analyzer"   -- rust
+                "rust_analyzer",  -- rust
+                "html",           -- html 
+                "cssls",          -- cssls
             },
         }
 
