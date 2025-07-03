@@ -56,3 +56,24 @@ export PATH="$HOME/.local/share/coursier/bin:$PATH" # or /home/lenny/.bashrc
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
 export SDKMAN_DIR="$HOME/.sdkman"
 [[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+
+
+# This stuff is for jumper 
+jmp() {
+    local dest 
+    dest=$(python ~/projects/jumper/proto.py "$1" 2>/dev/null)
+
+    if [[ -z "$dest" ]]; then 
+        echo "jmp: No directory found or invalid input."
+        return 1 
+    fi 
+
+    if [[ "$dest" == Multiple* ]]; then 
+        echo "$dest"
+        return 1 
+    fi 
+
+
+    cd "$dest" || echo "jmp: failed to jump to $dest"
+
+}
